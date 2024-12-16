@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  h1 add student
+   form(action="/" method="POST")
+     label(for="firstName") firstName:
+     input(type="text" name="firstname" placeholder="")
+     br
+     label(for="lastName") lastName:
+     input(type="text" name="lastName" placeholder="")
+     br
+     label(for="age") age:
+     input(type="number" name="age" placeholder="")
+     br
+     label(for="dob") dob:
+     input(type="text" name="dob" placeholder="")
+     br
+     label(for="department") department:
+     input(type="text" name="department" placeholder="")
+     br
+     input(type="submit")
+  
